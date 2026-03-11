@@ -1,0 +1,17 @@
+{
+  "name": "@askverdict/examples",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "quick-start": "tsx quick-start.ts",
+    "streaming": "tsx streaming.ts"
+  },
+  "dependencies": {
+    "@askverdict/sdk": "workspace:*",
+    "@askverdict/types": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
+  }
+}

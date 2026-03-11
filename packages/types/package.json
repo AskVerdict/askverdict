@@ -1,0 +1,46 @@
+{
+  "name": "@askverdict/types",
+  "version": "0.1.0",
+  "description": "Shared TypeScript types for AskVerdict AI debate engine",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "keywords": [
+    "askverdict",
+    "ai",
+    "debate",
+    "verdict",
+    "decision-making",
+    "multi-agent",
+    "types",
+    "typescript"
+  ],
+  "homepage": "https://askverdict.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/askverdict/askverdict",
+    "directory": "packages/types"
+  },
+  "license": "MIT",
+  "author": "AskVerdict <hello@askverdict.ai>",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "pnpm run clean && pnpm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
