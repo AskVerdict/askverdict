@@ -77,7 +77,7 @@ jobs:
             PACKAGES="$PACKAGES \"@askverdict/cli\": patch"$'\n'
           fi
           if echo "$CHANGED_FILES" | grep -q "^packages/verdict/"; then
-            PACKAGES="$PACKAGES \"verdict\": patch"$'\n'
+            PACKAGES="$PACKAGES \"askverdict\": patch"$'\n'
           fi
 
           # If types changed, also bump sdk and cli (they depend on types)

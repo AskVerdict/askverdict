@@ -5,7 +5,7 @@ Multi-agent AI debate engine for your terminal. Three AI agents argue both sides
 **Zero signup. BYOK. Instant decisions.**
 
 ```bash
-npx verdict "Should I use PostgreSQL or MongoDB for my SaaS?"
+npx askverdict "Should I use PostgreSQL or MongoDB for my SaaS?"
 ```
 
 ```
@@ -43,7 +43,7 @@ export OPENAI_API_KEY=sk-...
 export GEMINI_API_KEY=AI...
 
 # Run it
-npx verdict "Should I use Kubernetes or just Docker Compose?"
+npx askverdict "Should I use Kubernetes or just Docker Compose?"
 ```
 
 If you have multiple keys, each debate agent uses a different provider for diverse perspectives.
@@ -51,7 +51,7 @@ If you have multiple keys, each debate agent uses a different provider for diver
 ## Install (optional)
 
 ```bash
-npm i -g verdict
+npm i -g askverdict
 ```
 
 ## Usage

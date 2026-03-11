@@ -1,11 +1,12 @@
 {
-  "name": "verdict",
+  "name": "askverdict",
   "version": "0.1.0",
   "description": "Multi-agent AI debate engine for your terminal. BYOK, zero signup, instant decisions.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
+    "askverdict": "./dist/index.js",
     "verdict": "./dist/index.js"
   },
   "exports": {

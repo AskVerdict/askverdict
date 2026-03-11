@@ -6,7 +6,7 @@
 
 [![npm](https://img.shields.io/npm/v/@askverdict/sdk?label=sdk)](https://www.npmjs.com/package/@askverdict/sdk)
 [![npm](https://img.shields.io/npm/v/@askverdict/cli?label=cli)](https://www.npmjs.com/package/@askverdict/cli)
-[![npm](https://img.shields.io/npm/v/verdict?label=verdict)](https://www.npmjs.com/package/verdict)
+[![npm](https://img.shields.io/npm/v/askverdict?label=verdict)](https://www.npmjs.com/package/askverdict)
 [![npm](https://img.shields.io/npm/v/@askverdict/types?label=types)](https://www.npmjs.com/package/@askverdict/types)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -23,7 +23,7 @@ AskVerdict AI is a multi-agent debate engine that pits multiple AI personas agai
 ### verdict (BYOK, zero signup)
 
 ```bash
-npx verdict "Should I use PostgreSQL or MongoDB for my SaaS?"
+npx askverdict "Should I use PostgreSQL or MongoDB for my SaaS?"
 ```
 
 Uses your own API keys (OpenAI, Anthropic, or Gemini). See [`packages/verdict`](./packages/verdict) for details.
