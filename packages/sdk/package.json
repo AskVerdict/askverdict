@@ -1,6 +1,6 @@
 {
   "name": "@askverdict/sdk",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "AskVerdict TypeScript SDK — API client for askverdict.ai",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,7 +11,11 @@
       "import": "./dist/index.js"
     }
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "askverdict",
     "ai",
@@ -37,7 +41,7 @@
     "build": "tsc",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
     "prepublishOnly": "pnpm run clean && pnpm run build"
   },
   "dependencies": {

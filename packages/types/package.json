@@ -1,6 +1,6 @@
 {
   "name": "@askverdict/types",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Shared TypeScript types for AskVerdict AI debate engine",
   "type": "module",
   "main": "./dist/index.js",
@@ -12,7 +12,11 @@
       "default": "./dist/index.js"
     }
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "askverdict",
     "ai",
@@ -37,7 +41,7 @@
   "scripts": {
     "build": "tsc",
     "typecheck": "tsc --noEmit",
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
     "prepublishOnly": "pnpm run clean && pnpm run build"
   },
   "devDependencies": {
