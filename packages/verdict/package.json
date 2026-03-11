@@ -1,0 +1,62 @@
+{
+  "name": "verdict",
+  "version": "0.1.0",
+  "description": "Multi-agent AI debate engine for your terminal. BYOK, zero signup, instant decisions.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "verdict": "./dist/index.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "ai",
+    "debate",
+    "verdict",
+    "decision-making",
+    "multi-agent",
+    "cli",
+    "openai",
+    "anthropic",
+    "gemini",
+    "byok",
+    "gpt",
+    "claude",
+    "llm"
+  ],
+  "homepage": "https://askverdict.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/askverdict/askverdict",
+    "directory": "packages/verdict"
+  },
+  "license": "MIT",
+  "author": "AskVerdict <hello@askverdict.ai>",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
+    "prepublishOnly": "pnpm run clean && pnpm run build"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vitest": "^3.2.0"
+  }
+}

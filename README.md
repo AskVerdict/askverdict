@@ -6,6 +6,7 @@
 
 [![npm](https://img.shields.io/npm/v/@askverdict/sdk?label=sdk)](https://www.npmjs.com/package/@askverdict/sdk)
 [![npm](https://img.shields.io/npm/v/@askverdict/cli?label=cli)](https://www.npmjs.com/package/@askverdict/cli)
+[![npm](https://img.shields.io/npm/v/verdict?label=verdict)](https://www.npmjs.com/package/verdict)
 [![npm](https://img.shields.io/npm/v/@askverdict/types?label=types)](https://www.npmjs.com/package/@askverdict/types)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -19,7 +20,15 @@ AskVerdict AI is a multi-agent debate engine that pits multiple AI personas agai
 
 ## Quick Start
 
-### CLI (zero install)
+### verdict (BYOK, zero signup)
+
+```bash
+npx verdict "Should I use PostgreSQL or MongoDB for my SaaS?"
+```
+
+Uses your own API keys (OpenAI, Anthropic, or Gemini). See [`packages/verdict`](./packages/verdict) for details.
+
+### CLI (with AskVerdict account)
 
 ```bash
 npx askverdict "Should I use PostgreSQL or MongoDB for my SaaS?"
@@ -48,6 +57,7 @@ console.log(verdict.verdict.recommendation);
 
 | Package | Description | Version |
 |---------|-------------|---------|
+| [`verdict`](./packages/verdict) | BYOK debate CLI (zero signup) | [![npm](https://img.shields.io/npm/v/verdict)](https://www.npmjs.com/package/verdict) |
 | [`@askverdict/sdk`](./packages/sdk) | TypeScript API client | [![npm](https://img.shields.io/npm/v/@askverdict/sdk)](https://www.npmjs.com/package/@askverdict/sdk) |
 | [`@askverdict/cli`](./packages/cli) | Command-line interface | [![npm](https://img.shields.io/npm/v/@askverdict/cli)](https://www.npmjs.com/package/@askverdict/cli) |
 | [`@askverdict/types`](./packages/types) | Shared TypeScript types | [![npm](https://img.shields.io/npm/v/@askverdict/types)](https://www.npmjs.com/package/@askverdict/types) |
