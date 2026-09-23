@@ -9,6 +9,7 @@
 [![npm](https://img.shields.io/npm/v/askverdict?label=verdict)](https://www.npmjs.com/package/askverdict)
 [![npm](https://img.shields.io/npm/v/@askverdict/types?label=types)](https://www.npmjs.com/package/@askverdict/types)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Discord](https://img.shields.io/discord/829168897080557579?style=flat-square&logo=discord&logoColor=white&label=discord&color=5865F2)](https://discord.gg/Ar5pcaZB99)
 
 [Website](https://askverdict.ai) | [Documentation](https://askverdict.ai/docs) | [Get API Key](https://askverdict.ai/settings/api)
 
@@ -95,6 +96,12 @@ const client = new AskVerdictClient({ apiKey: 'your-api-key' });
 ## Examples
 
 See the [examples/](./examples) directory for working code samples.
+
+## Community
+
+Join the GLINR Discord to ask questions, share what you built, and talk to the team in #askverdict.
+
+<a href="https://discord.gg/Ar5pcaZB99"><img src="https://discord.com/api/guilds/829168897080557579/widget.png?style=banner2" alt="Join the GLINR Discord" /></a>
 
 ## Contributing
 

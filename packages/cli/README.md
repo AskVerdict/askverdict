@@ -124,6 +124,10 @@ All commands support `--json` for machine-readable output:
 askverdict debate "question" --json | jq '.verdict.recommendation'
 ```
 
+## Community
+
+Questions or issues with the CLI? Join the [GLINR Discord](https://discord.gg/Ar5pcaZB99) and ask in #askverdict.
+
 ## License
 
 MIT
