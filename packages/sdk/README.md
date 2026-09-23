@@ -144,6 +144,10 @@ try {
 }
 ```
 
+## Community
+
+Questions about the SDK? Join the [GLINR Discord](https://discord.gg/Ar5pcaZB99) and ask in #askverdict.
+
 ## License
 
 MIT
